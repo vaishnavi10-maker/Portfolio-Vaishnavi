@@ -8,7 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
 
+
   ],
+
   theme: {
     extend: {
       fontFamily: {
@@ -16,4 +18,5 @@ export default defineConfig({
       },
     },
   },
+  base: '/Portfolio-vaishnavi',
 })
