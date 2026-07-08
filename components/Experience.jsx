@@ -1,4 +1,7 @@
 import React from 'react'
+import cert1 from '../src/assets/2c.png'
+import cert2 from '../src/assets/1c.png'
+
 const experiences = [
   {
     id:1,
@@ -6,7 +9,7 @@ const experiences = [
     company: 'Kattalyx Labs Pvt. Ltd.',
     duration: 'January 2024 - March 2024',
     description: 'Worked on developing a web application for a startup company about educational website. created interactive and user-friendly interfaces using React.js, JavaScript, Tailwind CSS, and REST APIs. Collaborated with cross-functional teams to design and implement frontend features, improve user experience, and ensure seamless integration between frontend and backend systems. Enhanced authentication mechanisms through JWT-based user sessions and contributed to notification systems for real-time user updates. Participated in API optimization and performance improvement initiatives, helping reduce response times and improve overall platform efficiency. Gained hands-on experience in software development lifecycle practices, version control, debugging, testing, and agile development methodologies while working on real-world solutions.',
-    img: '2c.png',
+    img: cert1,
     link: 'https://drive.google.com/file/d/1ti3QHvI9nzmBnJ9b2nZDJ5Wt5pdQ-NUC/view?usp=sharing',
   },
   {
@@ -15,7 +18,7 @@ const experiences = [
     company: 'BlueStock Fin',      
     duration: 'August 2025 - September 2025',
     description: 'Worked as a Software Development Engineer Intern at Bluestock Fintech, contributing to the development and enhancement of a stock market analysis platform. Developed responsive and user-friendly web applications using React.js, JavaScript, Tailwind CSS, and REST APIs. Collaborated with cross-functional teams to design and implement frontend features, improve user experience, and ensure seamless integration between frontend and backend systems. Enhanced authentication mechanisms through JWT-based user sessions and contributed to notification systems for real-time user updates. Participated in API optimization and performance improvement initiatives, helping reduce response times and improve overall platform efficiency. Gained hands-on experience in software development lifecycle practices, version control, debugging, testing, and agile development methodologies while working on real-world fintech solutions.',
-    img: '1c.png',
+    img: cert2,
     link: 'https://drive.google.com/file/d/1RP6Wo_mgsXV88L5AyWBZ66QqLm2OcEEh/view?usp=sharing',
   },
 ]
