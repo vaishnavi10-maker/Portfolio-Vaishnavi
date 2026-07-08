@@ -18,5 +18,5 @@ export default defineConfig({
       },
     },
   },
-  base: '/Portfolio-vaishnavi',
+  base: '/Portfolio-Vaishnavi/',
 })

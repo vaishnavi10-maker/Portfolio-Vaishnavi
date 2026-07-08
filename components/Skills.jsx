@@ -10,7 +10,7 @@ function Skills() {
         <h4 className="text-base font-semibold tracking-[1px] text-[#ccc] mb-3.75">Languages and Tools</h4>
         <div className="flex flex-wrap gap-10 items-center">
           {['python', 'java', 'html', 'css', 'javascript', 'nodejs', 'vite','react','csharp','php','dotnet','kotlin','django'].map((icon, idx) => (
-            <img key={idx} src={`/${icon}.svg`} alt={icon}  className="w-50px h-50px size-14 object-contain transition-transform duration-300 ease-in-out hover:scale-125
+            <img key={idx} src={`${icon}.svg`} alt={icon}  className="w-50px h-50px size-14 object-contain transition-transform duration-300 ease-in-out hover:scale-125
 "/>
           ))}
         </div>
@@ -19,7 +19,7 @@ function Skills() {
       <div className="pb-10">
         <h4 className="text-base font-semibold tracking-[1px] text-[#ccc] mb-3.75">Database</h4>
         <div className="flex flex-wrap gap-10 items-center">
-          <img src="/mongodb.svg" alt="gcp" className="w-50px h-50px size-14 object-contain transition-transform duration-300 ease-in-out hover:scale-125
+          <img src="mongodb.svg" alt="gcp" className="w-50px h-50px size-14 object-contain transition-transform duration-300 ease-in-out hover:scale-125
 "/>
         </div>
       </div>
@@ -27,9 +27,9 @@ function Skills() {
       <div className="pb-10">
         <h4 className="text-base font-semibold tracking-[1px] text-[#ccc] mb-3.75">Operating Systems</h4>
         <div className="flex flex-wrap gap-10 items-center">
-          <img src="/windows.svg" alt="windows"  className="w-50px h-50px size-14 object-contain transition-transform duration-300 ease-in-out hover:scale-125
+          <img src="windows.svg" alt="windows"  className="w-50px h-50px size-14 object-contain transition-transform duration-300 ease-in-out hover:scale-125
 "/>
-          <img src="/linux.svg" alt="linux" className="w-50px h-50px size-14 object-contain transition-transform duration-300 ease-in-out hover:scale-125
+          <img src="linux.svg" alt="linux" className="w-50px h-50px size-14 object-contain transition-transform duration-300 ease-in-out hover:scale-125
 "/>
         </div>
       </div>
